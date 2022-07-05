@@ -1,3 +1,29 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 300px;
+    padding-bottom: 15px;
+}
+.banner_section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.half_width{
+    width: 40%;
+    float: left;
+padding: 2%;
+margin: 3%;
+}
+.half_width img{
+    width: 80%;
+}
+.btn_anker{
+    text-decoration: none;
+    background-image: radial-gradient(yellow,tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
 }
